@@ -30,7 +30,7 @@ Speaking of multiple servers, it's handy to give your containers explicit names 
 
     docker run -d -p 25565:25565 --name mc itzg/minecraft-server
 
-With that you can easily view the logs, stop, or re-start the container:
+With that you can easily view the logs, stop, or re-start the containe:
 
     docker logs -f mc
         ( Ctrl-C to exit logs action )
